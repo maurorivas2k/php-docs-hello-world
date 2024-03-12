@@ -65,8 +65,8 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_6776CCF18EEB42829CD56820210860E5 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_C446A4F76B8F40F18E89A1F8C1CB4D64 }}
 
-      - name: Sleep for 30 seconds
-        run: sleep 180s
+      - name: Sleep for 60 seconds
+        run: sleep 60s
         shell: bash
 
       - name: 'Deploy to Azure Web App'
