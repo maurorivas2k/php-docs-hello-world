@@ -9,6 +9,10 @@ on:
       - master
   workflow_dispatch:
 
+env:
+  # Setting an environment variable with the value of a configuration variable
+  env_var: ${{ vars.FORCE_JAVASCRIPT_ACTIONS_TO_NODE20 }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
