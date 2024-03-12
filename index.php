@@ -5,6 +5,6 @@
     </head>
     <body>
         <?php echo '<p>"PHP APPTITUDE-APPLOG OVER AZURE APP SERVICE!"</p>'; ?>
-         <?php echo '<p>"runner github node20"</p>'; ?>
+         <?php echo '<p>"Prueba de pipeline"</p>'; ?>
     </body>
 </html>
